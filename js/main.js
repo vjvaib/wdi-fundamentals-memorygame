@@ -1,20 +1,22 @@
 
-cards = ["queen", "queen", "king", "king"];
-cardsInPlay = [ ];
+var cards = ["queen", "queen", "king", "king"];
+var cardsInPlay = [ ];
 
-cardOne = cards[0];
+
+
+var cardOne = cards[0];
 cardsInPlay.push(cardOne);
 
 
-cardTwo = cards[3];
+var cardTwo = cards[3];
 cardsInPlay.push(cardTwo);
 
-let cardsInPlay;
+var checkFor Match = function() {
 if (cardsInPlay[0] === cardsInPlay[3]) {
-alert "you found a match";
+alert = "you found a match";
 }
 else {
-alert "Sorry try again";
+alert = "Sorry try again";
 }
 
 
